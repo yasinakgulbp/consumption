@@ -18,5 +18,6 @@ Before setting up the project, ensure you have the following installed on your m
 First, clone the repository from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/estimated-consumption-app.git
-cd estimated-consumption-app/backend
+git clone https://github.com/yasinakgulbp/consumption.git
+
+cd consumption
