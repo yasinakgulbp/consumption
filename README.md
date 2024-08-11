@@ -6,7 +6,7 @@ This is the backend part of the Estimated Consumption Application. It is built w
 
 Before setting up the project, ensure you have the following installed on your machine:
 
-- **Java Development Kit (JDK) 11 or higher**
+- **Java Development Kit (JDK) 21 or higher**
 - **Maven** - To build and manage the project dependencies.
 - **Docker** - To run the application in a containerized environment.
 - **PostgreSQL** - As the relational database.
