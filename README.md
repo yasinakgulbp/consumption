@@ -37,21 +37,3 @@ html
 docker run --name postgres -e POSTGRES_PASSWORD=root -e POSTGRES_USER=root -d -p 5432:5432  postgres
 
 
-### Mysql image download and manage to password,username
-
-
-html
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -e MYSQL_PASSWORD=root -e MYSQL_DATABASE=mysqldatabase -d -p 3306:3306 mysql
-
-
-Bu komut, MySQL veritabanını kullanarak bir Docker konteyneri oluşturur. İşte komutun parçalarının açıklamaları:
-
-- name mysql: Konteynere verilecek isim.
-- MYSQL_ROOT_PASSWORD=root: MySQL kök kullanıcısının parolası.
-- MYSQL_USER=root: Oluşturulacak kullanıcının adı.
-- MYSQL_PASSWORD=root: Oluşturulacak kullanıcının parolası.
-- MYSQL_DATABASE=mysqldatabase: Oluşturulacak veritabanının adı.
-- d: Konteynerin arka planda çalıştırılmasını sağlar.
-- p 3306:3306: Konteynerin 3306 portunu yerel makinenin 3306 portuna yönlendirir. Bu, MySQL sunucusuna yerel makineden erişebilmenizi sağlar.
-- mysql: Kullanılacak Docker görüntüsü.
-
