@@ -56,11 +56,10 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 ```
-# Build and Run the Application
-Build the project with Maven:
 
 # Access the Application
-The application runs on http://localhost:8080.
+   The application runs on http://localhost:5432
+# The application has 2 apis
 ```bash
 GET /api/cities
 POST /api/consumption
