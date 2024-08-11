@@ -1,5 +1,7 @@
 # Estimated Consumption Application - Backend
 
+![Animasyonlu GIF](/images/Estimate.gif)
+
 This is the backend part of the Estimated Consumption Application. It is built with Java using Spring Boot, Lombok, and PostgreSQL as the database. The project is containerized using Docker, making it easier to deploy and run.
 
 ## Prerequisites
