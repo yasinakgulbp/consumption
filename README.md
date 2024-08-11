@@ -33,7 +33,7 @@ ___
 ### Postgresql image download and manage to password,username
 
 
-html
+```bash
 docker run --name postgres -e POSTGRES_PASSWORD=root -e POSTGRES_USER=root -d -p 5432:5432  postgres
 
 
